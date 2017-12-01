@@ -1,5 +1,7 @@
 FROM ubuntu:16.04
 
+ENV OPENCV_VERSION 2.4.13.4
+
 RUN mkdir -p /opencv
 WORKDIR /opencv
 
